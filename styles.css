@@ -1,0 +1,140 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+  }
+
+  h2 {
+    text-align: center;
+  }
+  
+  /* Page styles */
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .about-image img {
+    width: 200px;
+    border-radius: none;
+  }
+  
+  .about-text {
+    flex-grow: 1;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project img {
+    width: 100%;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 
+  10px;
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .fa {
+    padding: 5px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-github {
+    background: #000000;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #e1306c;
+    color: white;
+  }
+  
